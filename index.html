@@ -1,0 +1,369 @@
+  <!DOCTYPE html>
+<html>
+<head>
+	<title>Bready Bakers</title>
+   <link rel="icon" href="images/logo-dark.png" >
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<style type="text/css">
+  .loader
+  {
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    top: 40%;
+    left: 45%;
+    background-image: url(https://i.pinimg.com/originals/6d/3c/d3/6d3cd3e883bfe9d7c7cbecd9b0b5174e.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    z-index: 999;
+
+  }
+
+  
+  .bgzoom
+  {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+     z-index: 999;
+
+  }
+  @media(max-width: 1300px){
+    .logo
+    {
+      margin-left: 44%;
+      margin-top: 60px;
+
+    }
+    .pic1slide
+    {
+      height: 500px;
+      margin-left: 13%;
+    }
+    .buttnorder
+    {
+      margin-left: -47%;
+      margin-top: 40%;
+      
+    }
+    .buttnorder2
+    {
+      margin-left: -46%;
+      margin-top: 42%;
+    }
+    .slide1
+    {
+      height: 80vh;
+    }
+    .pricetag
+    {
+      height: 100px;
+      width: 100px;
+    }
+    .price
+    {
+      margin-left: 34.5%;
+      margin-top: -38.5%;
+      color: white;
+    }
+    .price2
+    {
+      margin-left: 34.5%;
+      color: white;
+      margin-top: 4%;
+    }
+    .ceo
+    {
+      width: 500px;
+    }
+    .header
+    {
+      height: 100vh;
+    }
+    .bg
+    {
+      height: 100vh;
+    }
+    .history
+    {
+      height: 80vh;
+    }
+   .fb
+   {
+  margin-left: 40px;
+   }
+   .btnsubs
+   {
+    right: 10px;
+   }
+   .loader
+   {
+    left: 42%;
+   }} 
+   body{
+    background-image: url(bg.png);
+   }
+</style>
+</head>
+<body>
+  <div class="bgzoom">
+  <div class="loader">
+  
+  </div> 
+</div>
+  <nav id="top" class="navbar navbar-expand-lg navbar-light">
+     <img class="logo" src="http://warethemes.com/wordpress/bready/wp-content/themes/bready/assets/images/logo-light.png" width="150px" height="128px">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item active class">
+        <a class="nav-link main" href="#">Home</a>
+      </li>
+      <li class="nav-item class">
+        <a class="nav-link" href="about.html">About us</a>
+      </li>
+      <li class="nav-item dropdown class3">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Menu
+        </a>
+        <div class="dropdown-menu ddmenu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="sweets-product.html">Sweets</a>
+          <a class="dropdown-item" href="bakers-product.html">Bakery</a>
+        </div>
+      </li>
+      <li class="nav-item top">
+       
+      </li>
+      <li class="nav-item class2">
+        <a class="nav-link" href="gift-hampers.html">Gift Hampers</a>
+      </li>
+      <li class="nav-item class">
+        <a class="nav-link" href="blog.html">Blogs</a>
+      </li>
+      <li class="nav-item class">
+        <a class="nav-link" href="contact.html">Contact us</a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <!-- <img src="images/slide1.png" class="d-block w-100" alt="..."> -->
+      <div class="slide1">
+        <img class="pricetag" src="images/badge.png" width="6%">
+        
+        
+        <img class="pic1slide" src="images/slide1.png" height="600px" width="855px">
+        <h3 class="price">$50</h3>
+        <button class="buttnorder"><a href="ordernow.html">Order Now</button></a>
+    </div>
+    </div>
+    <div class="carousel-item">
+      <div class="slide1">
+       <img class="pricetag" src="images/badge.png" width="6%">
+       <h3 class="price2">$50</h3>
+      <img class="pic1slide" src="images/slider-5.png" class="d-block w-100" alt="...">
+       <button class="buttnorder2"><a href="ordernow.html">Order Now</button></a>
+    </div>
+
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<hr>
+<center>
+  <div class="leave">
+  <div class="container-fluid header">
+<div class="row">
+  <div class="col-md-12 mx-auto">
+    <h1 class="deli">Delicieux</h1>
+    <h3 class="WELCOME">WELCOME TO THE STORE</h3>
+    <img class="leave" src="images/leave.png" width="5%">
+  </div>
+  </div>
+
+<div class="row award">
+  <div class="col-md-4">
+    <img src="images/award-1.png">
+    <h4 class="year">BAKERY OF THE YEAR<br><span>2022-2023</span></h4>
+    <p class="paragraph">Tart bear claw cake tiramisu chocolate bar, <br> gummies dragée lemon drops brownie. Jujubes <br>chocolate cake sesame snaps</p>
+  </div>
+    <div class="col-md-4">
+     <img src="images/award-2.png">
+     <h4 class="year">SWEET SHOP OF THE YEAR<br><span>2022-2023</span></h4>
+     <p class="paragraph">Tart bear claw cake tiramisu chocolate bar, <br> gummies dragée lemon drops brownie. Jujubes <br>chocolate cake sesame snaps</p>
+  </div>
+    <div class="col-md-4">
+     <img src="images/award-1.png">
+      <h4 class="year">PREMIUM BAKERS OF THE YEAR<br><span>2022-2023</span></h4>
+      <p class="paragraph">Tart bear claw cake tiramisu chocolate bar, <br> gummies dragée lemon drops brownie. Jujubes <br>chocolate cake sesame snaps</p>
+  </div>
+
+  </div>
+
+
+<div class="row">
+  <div class="col-md-6">
+    <img src="images/baker-png.png">
+  </div>
+   <div class="col-md-6">
+  <p class="ceo">“It seems that every country that can get its hands on butter has  its opinion of what butter cream frosting should be. Some are made with eggs and butter.”
+<h5 class="Sunshine">Sunshine- CEO Bakery</h5>
+<img src="images/signature-2.png">
+</p>
+  </div>
+  
+ </div>
+</div>
+</div>
+<div class="container-fluid">
+<div class="bg">
+  <div class="review">
+    <img class="aunty" src="images/1.jpg">
+    <br>
+    <br>
+<span class="fa fa-star fa-lg checked"></span>
+<span class="fa fa-star fa-lg checked"></span>
+<span class="fa fa-star fa-lg checked"></span>
+<span class="fa fa-star fa-lg checked"></span>
+<span class="fa fa-star fa-lg checked2"></span>
+<p class="reviewpara">“Dessert pudding dessert jelly beans cupcake sweet caramels <br> gingerbread. Fruitcake biscuit cheesecake. Cookie topping <br>sweet muffin pudding tart bear claw sugar plum croissant.”</p>
+<div class="line">
+  
+</div>
+<h3 class="logan"><b>Logan May</b> - CEO & Founder Invision</h3>
+  </div>
+    
+  </div>
+</div>
+<div class="container">
+  <div class="history">
+    <div class="row mar">
+  <div class="col-md-12 mx-auto">
+    <h1 class="deli">Our History</h1>
+    <h3 class="WELCOME">LIVE WITH PASSION®</h3>
+    <img class="leave" src="images/leave.png" width="5%">
+  </div>
+  </div>
+  <div class="row mar mar2">
+    <div class="col-md-4 pic1">
+     <img class="hover1" src="images/blog-7.png" height="242px" width="363px">
+     <p class="date">August 14, 2023</p>
+     <h2 class="head">BLACK ROSE TECH FLEECE <br> COLLECTION</h2>
+     <p class="by">By <span class="orange"> Bready Store</span></p>
+     <p class="paraleft">No matter how far along you are in your sophistication as an amateur astronomer, there is always one fundamental moment that we all go back...</p>
+     <p class="orange2"><span class="orange3"> Read More</span></p>
+    </div>
+    <div class="col-md-4">
+      <img src="images/blog-1.png" height="242px" width="363px">
+      <p class="date">November 27, 2023</p>
+     <h2 class="head">REVELATION AS PROFOUND</h2>
+     <p class="by">By <span class="orange"> Bready Store</span></p>
+     <p class="paraleft">No matter how far along you are in your sophistication as an amateur astronomer, there is always one fundamental moment that we all go back...</p>
+     <p class="orange2"><span class="orange3"> Read More</span></p>
+    </div>
+    <div class="col-md-4">
+   <img src="images/blog-2.png" height="242px" width="363px">
+   <p class="date">October 20, 2023</p>
+     <h2 class="head">BREAKING2 RACE STRATEGY</h2>
+     <p class="by">By <span class="orange"> Bready Store</span></p>
+     <p class="paraleft">No matter how far along you are in your sophistication as an amateur astronomer, there is always one fundamental moment that we all go back...</p>
+     <p class="orange2"><span class="orange3"> Read More</span></p>
+    </div>
+    
+  </div>
+    
+  </div>
+</div>
+<div class="container-fluid bluefooter">
+    <div class="conatiner">
+      <div class="row mar">
+    <div class="col-md-4">
+      <img src="images/logo-dark.png" width="200px" height="169.89px">
+      <p class="footerlines">Tart bear claw cake tiramisu chocolate bar gummies drage lemon drops brownie.</p>
+      <ul class="socials">
+        <li class="fb"><a href=""><i class="fa fa-facebook"></i></a></li>
+         <li class="fb2"><a href=""><i class="fa fa-twitter"></i></a></li>
+        <li class="fb2"><a href=""><i class="fa fa-linkedin"></i></a></li>
+         <li class="fb2"><a href=""><i class="fa fa-pinterest"></i></a></li>
+        <li class="fb2"><a href=""><i class="fa fa-instagram"></i></a></li>
+         <li class="fb2"><a href=""><i class="fa fa-tumblr"></i></a></li>
+        <li class="fb2"><a href=""><i class="fa fa-dribbble"></i></a></li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <h2 class="news">Get news & offer</h2>
+      <input class="Subscribetext" type="text" name="" placeholder="Your email...">
+      <button class="btnsubs">Subscribe</button>
+      <p class="worry">*Don't worry , we never spam</p>
+       <h2 class="news2">Contact with me</h2>
+        <p class="footerlines">PO Box 16122 Collins Street West 8007 Australia<br>
+(+84 ) 7534 9773, (+84 ) 874 548.</p>
+    </div>
+    <div class="col-md-4">
+       <h2 class="news">Time to Open</h2>
+       <p class="footerlines">Monday – Friday:<br>
+08:00 am – 08:30 pm<br>
+Saturday – Sunday:<br>
+10:00 am – 16:30 pm</p>
+<div class="card5">
+<img src="images/visa.png" width="10%">
+<img src="images/mastercard.png" width="10%">
+<img src="images/paypal.png" width="10%">
+</div>
+    </div>
+  </div>
+  </div>
+</div>
+</center>
+<div class="footer">
+    <p class="footerpara">© Copyright by <b>Bready Store.</b> Design by <span class="bilal">Ahmed Raza</span></p>
+     <a href="#top"><button class="next4"><i class="fa fa-arrow-up" aria-hidden="true"  ></i></button></a>
+</button>
+</div>
+<script type="text/javascript">
+  $(window). on("load",function() {
+    $(".loader").delay(4500).fadeOut("slow");
+     $(".bgzoom").delay(4500).fadeOut("slow");
+  });
+</script>
+</body>
+</html>
